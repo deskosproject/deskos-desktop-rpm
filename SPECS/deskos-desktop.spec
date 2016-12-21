@@ -1,5 +1,5 @@
 Name:           deskos-desktop
-Version:        0.3.0
+Version:        0.4.0
 Release:        1%{?dist}
 Summary:        DeskOS Desktop dependencies
 
@@ -11,6 +11,7 @@ BuildArch:      noarch
 Requires:       deskos-backgrounds
 Requires:       deskos-firefox-preferences
 Requires:       deskos-firefox-theme
+Requires:       deskos-gedit-desktop-fix
 Requires:       deskos-gnome-theme
 Requires:       deskos-icon-theme
 Requires:       deskos-indexhtml
@@ -29,6 +30,9 @@ DeskOS Desktop dependencies.
 %files
 
 %changelog
+* Wed Dec 21 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.4.0-1
+- Added deskos-gedit-desktop-fix
+
 * Tue Dec 20 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.3.0-1
 - Added deskos-firefox-theme and firefox-extension-htitle
 
